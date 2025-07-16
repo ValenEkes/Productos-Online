@@ -1,6 +1,5 @@
 const QuienesSomos=()=>{
-
- return(
+return(
     <>
     
     </>

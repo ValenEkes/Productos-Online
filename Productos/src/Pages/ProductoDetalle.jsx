@@ -1,6 +1,5 @@
 const DetalleProductos=()=>{
-
-    return(
+   return(
        <>
        
        </>

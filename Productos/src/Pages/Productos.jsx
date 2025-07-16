@@ -1,9 +1,8 @@
 const Productos=()=>{
-
-    return(
-       <>
+return(
+<>
        
-       </>
+</>
     )   
    }
    export default Productos
