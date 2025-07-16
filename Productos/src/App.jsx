@@ -7,6 +7,7 @@ import Contactos from'./Pages/Contacto'
 import Productos from './Pages/Productos'
 import QuienesSomos from './Pages/QuienesSomos'
 import DetalleProductos from './Pages/ProductoDetalle'
+import ApiProductos from './componentes/ProductosAPI'
 function App() {
   const [count, setCount] = useState(0)
   return (
@@ -24,6 +25,7 @@ function App() {
       </Route>
       </Routes>
       </HashRouter> 
+      <ApiProductos/>
     </>
   )
 }

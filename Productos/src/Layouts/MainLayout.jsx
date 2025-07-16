@@ -10,6 +10,8 @@ return(
 <Link to="/Contacto">Contacto</Link>
 </nav>
 <Outlet/>
+<footer>
+</footer>
 </>
 )
 }
