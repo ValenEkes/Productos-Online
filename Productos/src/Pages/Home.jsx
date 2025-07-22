@@ -1,7 +1,10 @@
+import '../Diseños/Home.css'
+import Carrusel from '../componentes/Carrusel.jsx'
 const Home =()=>{
 return(
 <>
-<h1>Bienvenido a mi tienda online</h1>
+<h1>Bienvenidos a mi tienda online</h1>
+<Carrusel/>
 </>
 )
 }

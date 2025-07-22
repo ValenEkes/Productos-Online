@@ -1,0 +1,32 @@
+.NavBar{
+  background-color: #ec4747;
+  padding: 30px;
+  border-bottom: 1px solid #ec4747;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.Logo img{
+  height: 100px;
+  width: auto;
+  display: block;
+  margin-bottom: 0;
+}
+.Logo{
+  margin-right: 70px;
+}
+.Contenedor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.Links{
+  display: flex;
+  gap: 30px;
+}
+main{
+  padding: 0;
+  margin: 0;
+}

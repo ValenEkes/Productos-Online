@@ -7,7 +7,6 @@ import Contactos from'./Pages/Contacto'
 import Productos from './Pages/Productos'
 import QuienesSomos from './Pages/QuienesSomos'
 import DetalleProductos from './Pages/ProductoDetalle'
-import ApiProductos from './componentes/ProductosAPI'
 function App() {
   const [count, setCount] = useState(0)
   return (
@@ -20,12 +19,11 @@ function App() {
       <Route path="/Productos" element={<Productos/>}></Route>
       <Route path="/Productos/:idCategoria" element={<Productos/>}></Route>
       <Route path="/Productos/:idCategoria/:idProducto" element={<Productos/>}></Route>
-      <Route path="/ProductosDetalles/" element={<DetalleProductos/>}></Route>
+      <Route path="/ProductosDetalles" element={<DetalleProductos/>}></Route>
       <Route path="/Contacto" element={<Contactos/>}></Route>
       </Route>
       </Routes>
       </HashRouter> 
-      <ApiProductos/>
     </>
   )
 }
