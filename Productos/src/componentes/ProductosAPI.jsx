@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-
+import '../Diseños/DetalleProductos.css'
 const Productos = ({ categoria, idProducto, detalleMode }) => {
   const [productos, setProductos] = useState([]);
   const [productoDetalle, setProductoDetalle] = useState(null);
@@ -43,7 +43,7 @@ const Productos = ({ categoria, idProducto, detalleMode }) => {
 
   if (idProducto && productoDetalle) {
     return (
-      <div>
+      <div className="Productos">
         <h2>{productoDetalle.title}</h2>
         <img src={productoDetalle.thumbnail} alt={productoDetalle.title} />
         <p>{productoDetalle.description}</p>

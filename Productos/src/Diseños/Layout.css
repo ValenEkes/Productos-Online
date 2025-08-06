@@ -1,32 +1,44 @@
-.NavBar{
+.NavBar {
   background-color: #ec4747;
-  padding: 30px;
-  border-bottom: 1px solid #ec4747;
-  position: sticky;
+  width: 100vw; /* ancho completo de la pantalla */
+  position: fixed;
   top: 0;
+  left: 0;
   z-index: 1000;
+  box-sizing: border-box;
 }
-.Logo img{
-  height: 100px;
-  width: auto;
-  display: block;
-  margin-bottom: 0;
-}
-.Logo{
-  margin-right: 70px;
-}
-.Contenedor{
+
+.Contenedor {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1400px; /* o 100% si querés que se estire siempre */
   margin: 0 auto;
+  padding: 0 1px;
+  box-sizing: border-box;
 }
+
+.Logo img {
+  height: 100px; 
+}
+
+.Links a {
+  color: #862417;
+  Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  font-weight: bold;
+}
+
 .Links{
   display: flex;
-  gap: 30px;
+  gap: 40px;
+ 
 }
-main{
-  padding: 0;
+
+body, html {
   margin: 0;
+  padding: 0;
+}
+
+main {
+  padding-top: 70px; /* para que el contenido no quede debajo del navbar */
 }
