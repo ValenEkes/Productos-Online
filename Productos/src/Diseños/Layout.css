@@ -42,3 +42,7 @@ body, html {
 main {
   padding-top: 70px; /* para que el contenido no quede debajo del navbar */
 }
+footer{
+margin-top: 50px;
+color: rgb(192, 77, 41);
+}

@@ -1,6 +1,7 @@
 import { Navigate, useNavigate, useParams } from 'react-router-dom'
 import ApiProductos from '../componentes/ProductosAPI'
 import { useEffect, useState } from 'react'
+import '../Diseños/Productos.css'
 
 const TiposProductos = {
   1: "beauty",

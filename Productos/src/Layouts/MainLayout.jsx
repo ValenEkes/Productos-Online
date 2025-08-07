@@ -23,7 +23,7 @@ return(
       <Outlet />
     </main>
 
-    <footer></footer>
+    <footer>Hecho por Valentino Ekes</footer>
   </>
 )
 }
